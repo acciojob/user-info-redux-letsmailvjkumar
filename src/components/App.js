@@ -24,7 +24,7 @@ const App = () => {
         <label htmlFor="name">Name: </label>
         <input type="text" value={nameValue} onChange={handleNameChange}/><br />
         <label htmlFor="email">Email: </label>
-        <input type="text" value={emailValue} onChange={handleEmailChange}/>
+        <input type="email" value={emailValue} onChange={handleEmailChange}/>
         <p>Current values in store:</p>
         <p>Name - {nameValue}</p>
         <p>Email - {emailValue}</p>
